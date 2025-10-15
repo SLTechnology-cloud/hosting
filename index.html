@@ -1,541 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Osaka Trade Center</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Osaka Trade Center" name="keywords" />
-    <meta
-      content="Centro empresarial, ubicado en la ciudad de Bogotá."
-      name="description"
-    />
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Libro con Colores y StPageFlip</title>
+  
+  <link href="/css/style.css" rel="stylesheet">
+  <!-- Librería StPageFlip -->
+  <script src="https://cdn.jsdelivr.net/npm/page-flip/dist/js/page-flip.browser.min.js"></script>
+</head>
+<body>
 
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon" />
+<div id="book">
+  <div class="page-cover-top" data-density="hard">
+    <img src="/images/Logo Alcancia.png" style="margin-left: 12%; margin-top: 20%;" class="imagen-neon" width="350" />
+  </div>
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+  <div class="page pagina1">
+    <img src="/images/Slogan Alcancia.png" style="margin-left: 12%; margin-top: 10%;" width="350" />
+    <h3 class="titulo titulo-azul">PONLE MAGIA A TUS AHORROS</h3>
+  </div>
 
-    <!-- Font Awesome -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-      rel="stylesheet"
-    />
+  <div class="page pagina2">
+    <h1 class="titulo titulo-gris">MISIÓN</h1>
+    <p class="texto">En Magic Coin queremos ayudar a los niños y niñas a ahorrar su dinero de forma divertida con alcancías creativas y llenas de arte.</p>
+  </div>
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <div class="page pagina3">
+    <h1 class="titulo titulo-violeta">VISIÓN</h1>
+    <p class="texto vision">En nuestra empresa, queremos que muchos niños y niñas ahorren de forma divertida, en donde, con mucha creatividad, les agreguen color a sus alcancías y se diviertan mientras ahorran su dinero, incentivándolos a tener un buen manejo de su dinero y soñar en grande.</p>
+  </div>
+  
+  <div class="page pagina4">
+    <h1 class="titulo titulo-verde">OBJETIVO GENERAL</h1>
+    <p class="texto">Crear experiencias divertidas a los clientes, por medio de las alcancías, para que coloreen mientras va ahorrando.</p>
+  </div>
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
-  </head>
+  <div class="page pagina5">
+    <h1 class="titulo titulo-rojo">OBJETIVOS ESPECIFICOS</h1>    
+    <ul class="lista">
+      <li>Brindar experiencias divertidas por medio de las alcancías, para que los niños y niñas ahorren su dinero.</li>
+      <li>Dar a conocer un producto en el cual se vea reflejada la creatividad de los clientes a los que va dirigido.</li>
+      <li>Llevar el producto a muchos lugares y que sea reconocido por muchas personas.</li>
+    </ul>
+  </div>
+  
+  <div class="page pagina6">
+    <h1 class="titulo titulo-verde titulo-verde-valores">VALORES</h1>
+    <ul class="lista">
+      <li><b>Respeto</b>: Debemos ser respetuosos con nuestros clientes a la hora de ofrecer el producto y hacer entrega de este.</li>
+      <li><b>Compromiso</b>: Debemos comprometernos en entregar productos de calidad a nuestros clientes.</li>
+      <li><b>Trabajo en equipo</b>: Un buen trabajo en equipo nos permite tener buenos resultados.</li>
+    </ul>
+  </div>
 
-  <body>
-    <!-- Topbar Start -->
-    <div class="container-fluid d-none d-lg-block">
-      <div class="row align-items-center py-4 px-xl-5">
-        <div class="col-lg-3">
-          <a href="" class="text-decoration-none">
-            <!-- <h1 class="m-0"><span class="text-primary">O</span>SAKA</h1> -->
-            <img
-              src="img/logo.png"
-              alt="Osaka Trade Center"
-              style="width: 290px; height: 120px"
-            />
-          </a>
-        </div>
-        <div class="col-lg-3 text-right">
-          <div class="d-inline-flex align-items-center">
-            <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
-            <div class="text-left">
-              <h6 class="font-weight-semi-bold mb-1">Nuestra Ubicación</h6>
-              <small>Cll 74 # 15 - 80, Bogotá, Colombia</small>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 text-right">
-          <div class="d-inline-flex align-items-center">
-            <i class="fa fa-2x fa-envelope text-primary mr-3"></i>
-            <div class="text-left">
-              <h6 class="font-weight-semi-bold mb-1">Email</h6>
-              <small>edificioosakatradecenter@gmail.com</small>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 text-left">
-          <div class="d-inline-flex align-items-center">
-            <i class="fa fa-2x fa-phone text-primary mr-3"></i>
-            <div class="text-left">
-              <h6 class="font-weight-semi-bold mb-1">Llamanos</h6>
-              <small>+57 601 321 6005 Opc. 1</small>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Topbar End -->
+  <div class="page pagina7">
+    <h1 class="titulo titulo-gris-descripcion">DESCRIPCIÓN</h1>
+    <p class="texto vision">
+      Somos una empresa que se dedica a la creación y venta de alcancías para colorear, diseñadas para fomentar en los niños y niñas, 
+      la creatividad y el ahorro de su dinero de forma divertida. Ofrecemos una amplia variedad de diseños y temas, para que cada 
+      cliente pueda elegir su diseño favorito.      
+    </p>
+  </div>
 
-    <!-- Navbar Start -->
-    <div class="container-fluid">
-      <div class="row border-top px-xl-5">
-        <div class="col-lg-9">
-          <nav
-            class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0"
-          >
-            <a href="" class="text-decoration-none d-block d-lg-none">
-              <h1 class="m-0"><span class="text-primary">O</span>SAKA</h1>
-            </a>
-            <button
-              type="button"
-              class="navbar-toggler"
-              data-toggle="collapse"
-              data-target="#navbarCollapse"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div
-              class="collapse navbar-collapse justify-content-between"
-              id="navbarCollapse"
-            >
-              <div class="navbar-nav py-0">
-                <a href="index.html" class="nav-item nav-link active">Inicio</a>
-                <div class="nav-item dropdown">
-                  <a
-                    href="#"
-                    class="nav-link dropdown-toggle"
-                    data-toggle="dropdown"
-                    >Aliados</a
-                  >
-                  <div class="dropdown-menu rounded-0 m-0">
-                    <a href="#" class="dropdown-item">Tecnología</a>
-                    <a href="#" class="dropdown-item"
-                      >Inmobiliarias y Administraciones PH</a
-                    >
-                    <a href="#" class="dropdown-item">Abogados</a>
-                    <a href="#" class="dropdown-item">Psicologos</a>
-                    <a href="#" class="dropdown-item">Asesorias y Finanzas</a>
-                    <a href="#" class="dropdown-item">SGSS</a>
-                    <a href="#" class="dropdown-item">Seguros</a>
-                  </div>
-                </div>
-                <div class="nav-item dropdown">
-                  <a
-                    href="#"
-                    class="nav-link dropdown-toggle"
-                    data-toggle="dropdown"
-                    >Servicios</a
-                  >
-                  <div class="dropdown-menu rounded-0 m-0">
-                    <a href="serviciosOV.html" class="dropdown-item"
-                      >Oficinas en Venta</a
-                    >
-                    <a href="serviciosOA.html" class="dropdown-item"
-                      >Oficinas en Arriendo</a
-                    >
-                  </div>
-                </div>
-                <a href="contactenos.html" class="nav-item nav-link"
-                  >Contáctenos</a
-                >
-              </div>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </div>
-    <!-- Navbar End -->
+  <div class="page pagina8">
+    <p class="texto vision">      
+      Nuestros productos están hechos con materiales de alta calidad y son ideales para regalar en fiestas, o simplemente como forma de 
+      fomentar el ahorro y creatividad en el hogar. 
+    </p>
+  </div>
 
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 pb-5 mb-5">
-      <div
-        id="header-carousel"
-        class="carousel slide carousel-fade"
-        data-ride="carousel"
-      >
-        <ol class="carousel-indicators">
-          <li
-            data-target="#header-carousel"
-            data-slide-to="0"
-            class="active"
-          ></li>
-          <li data-target="#header-carousel" data-slide-to="1"></li>
-          <li data-target="#header-carousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active" style="min-height: 300px">
-            <img
-              class="position-relative w-100"
-              src="img/carousel-1.png"
-              style="min-height: 300px; object-fit: cover"
-            />
-            <div
-              class="carousel-caption d-flex align-items-center justify-content-center"
-            >
-              <div class="p-5" style="width: 100%; max-width: 900px">
-                <h5 class="text-white text-uppercase mb-md-3">
-                  El mejor trade center de la ciudad
-                </h5>
-                <h1 class="display-3 text-white mb-md-4">
-                  Los mejores espacios para crecer
-                </h1>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item" style="min-height: 300px">
-            <img
-              class="position-relative w-100"
-              src="img/carousel-2.jpg"
-              style="min-height: 300px; object-fit: cover"
-            />
-            <div
-              class="carousel-caption d-flex align-items-center justify-content-center"
-            >
-              <div class="p-5" style="width: 100%; max-width: 900px">
-                <h5 class="text-white text-uppercase mb-md-3">
-                  El mejor trade center de la ciudad
-                </h5>
-                <h1 class="display-3 text-white mb-md-4">
-                  La mejor ubicación de la ciudad
-                </h1>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item" style="min-height: 300px">
-            <img
-              class="position-relative w-100"
-              src="img/carousel-3.jpg"
-              style="min-height: 300px; object-fit: cover"
-            />
-            <div
-              class="carousel-caption d-flex align-items-center justify-content-center"
-            >
-              <div class="p-5" style="width: 100%; max-width: 900px">
-                <h5 class="text-white text-uppercase mb-md-3">
-                  El mejor trade center de la ciudad
-                </h5>
-                <h1 class="display-3 text-white mb-md-4">
-                  El nuevo camino para ser el mejor
-                </h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Carousel End -->
+  <div class="page-cover-bottom" data-density="hard">
+    <h1 class="titulo titulo-verde">CAST</h1>
+    <p class="texto">
+      Mathias Alejandro Aguacias<br />
+      Santiago Arias Reina<br />
+      Sara Isabella Lopez<br />
+      Ana Lucia Tapias<br />
+      Martin Alejandro Vanegas
+    </p>    
+    <img src="/images/Nombre.png" width="250" style="margin-left: 21%;">
+  </div>
+</div>
 
-    <!-- About Start -->
-    <div class="container-fluid py-5">
-      <div class="container py-5">
-        <div class="row align-items-center">
-          <div class="col-lg-5">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="img/About.jpeg"
-              alt=""
-              style="height: 500px; width: 350px"
-            />
-          </div>
-          <div class="col-lg-7">
-            <div class="text-left mb-4">
-              <h5
-                class="text-primary text-uppercase mb-3"
-                style="letter-spacing: 5px"
-              >
-                Acerca de Nosotros
-              </h5>
-              <h1>Osaka Trade Center</h1>
-            </div>
-            <p>
-              Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita,
-              ipsum dolores amet voluptua duo dolores et sit ipsum rebum,
-              sadipscing et erat eirmod diam kasd labore clita est. Diam sanctus
-              gubergren sit rebum clita amet, sea est sea vero sed et.
-              Sadipscing labore tempor at sit dolor clita consetetur diam. Diam
-              ut diam tempor no et, lorem dolore invidunt no nonumy stet ea
-              labore, dolor justo et sit gubergren diam sed sed no ipsum. Sit
-              tempor ut nonumy elitr dolores justo aliquyam ipsum stet
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- About End -->
+<!-- Botones para navegación -->
+<button onclick="pageFlip.flipPrev()" id="prevBtn" class="moneda" style="position: absolute; top: 10%; left: 10%;">⬅</button>
+<button onclick="pageFlip.flipNext()" id="nextBtn" class="moneda" style="position: absolute; top: 10%; right: 10%;">➡</button>
 
-    <!-- Customer Start -->
-    <div class="container-fluid py-5">
-      <div class="container pt-5 pb-3">
-        <div class="text-center mb-5">
-          <h5
-            class="text-primary text-uppercase mb-3"
-            style="letter-spacing: 5px"
-          >
-            Nuestros
-          </h5>
-          <h1>Aliados</h1>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6 mb-4">
-            <div
-              class="cat-item position-relative overflow-hidden rounded mb-2"
-            >
-              <img
-                class="img-fluid"
-                src="img/ally-1.jpg"
-                alt=""
-                style="height: 160px; width: 100%"
-              />
-              <a class="cat-overlay text-white text-decoration-none" href="">
-                <h4 class="text-white font-weight-medium">Tecnología</h4>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-4">
-            <div
-              class="cat-item position-relative overflow-hidden rounded mb-2"
-            >
-              <img
-                class="img-fluid"
-                src="img/ally-2.jpg"
-                alt=""
-                style="height: 160px; width: 100%"
-              />
-              <a class="cat-overlay text-white text-decoration-none" href="">
-                <h4 class="text-white font-weight-medium">
-                  Inmobiliarias y Administraciones PH
-                </h4>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-4">
-            <div
-              class="cat-item position-relative overflow-hidden rounded mb-2"
-            >
-              <img
-                class="img-fluid"
-                src="img/ally-3.jpg"
-                alt=""
-                style="height: 160px; width: 100%"
-              />
-              <a class="cat-overlay text-white text-decoration-none" href="">
-                <h4 class="text-white font-weight-medium">Abogados</h4>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-4">
-            <div
-              class="cat-item position-relative overflow-hidden rounded mb-2"
-            >
-              <img
-                class="img-fluid"
-                src="img/ally-4.jpg"
-                alt=""
-                style="height: 160px; width: 100%"
-              />
-              <a class="cat-overlay text-white text-decoration-none" href="">
-                <h4 class="text-white font-weight-medium">Psicologos</h4>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-3 mb-2"></div>
-          <div class="col-lg-3 col-md-6 mb-4">
-            <div
-              class="cat-item position-relative overflow-hidden rounded mb-2"
-            >
-              <img
-                class="img-fluid"
-                src="img/ally-5.jpg"
-                alt=""
-                style="height: 160px; width: 100%"
-              />
-              <a class="cat-overlay text-white text-decoration-none" href="">
-                <h4 class="text-white font-weight-medium">
-                  Asesoria y Finanzas
-                </h4>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-4">
-            <div
-              class="cat-item position-relative overflow-hidden rounded mb-2"
-            >
-              <img
-                class="img-fluid"
-                src="img/ally-6.jpg"
-                alt=""
-                style="height: 160px; width: 100%"
-              />
-              <a class="cat-overlay text-white text-decoration-none" href="">
-                <h4 class="text-white font-weight-medium">SGSS</h4>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-4">
-            <div
-              class="cat-item position-relative overflow-hidden rounded mb-2"
-            >
-              <img
-                class="img-fluid"
-                src="img/ally-7.jpg"
-                alt=""
-                style="height: 160px; width: 100%"
-              />
-              <a class="cat-overlay text-white text-decoration-none" href="">
-                <h4 class="text-white font-weight-medium">Seguros</h4>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Customer end -->
+<!-- Audio -->
+<audio id="flipSound" src="page-flip.mp3" preload="auto"></audio>
 
-    <!-- Office Start -->
-    <div class="container-fluid py-5">
-      <div class="container py-5">
-        <div class="text-center mb-5">
-          <h5
-            class="text-primary text-uppercase mb-3"
-            style="letter-spacing: 5px"
-          >
-            Servicios
-          </h5>
-          <h1>Nuestras Oficinas en Venta y Arriendo</h1>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 col-md-6 mb-6">
-            <div class="rounded overflow-hidden mb-4">
-              <div
-                class="cat-item position-relative overflow-hidden rounded mb-2"
-              >
-                <img
-                  class="img-fluid"
-                  src="img/office-2.jpg"
-                  alt=""
-                  style="width: 100%"
-                />
-                <a
-                  class="cat-overlay text-white text-decoration-none"
-                  href="serviciosOV.html"
-                >
-                  <h4 class="text-white font-weight-medium">
-                    Oficinas en Venta
-                  </h4>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 mb-6">
-            <div class="rounded overflow-hidden mb-4">
-              <div
-                class="cat-item position-relative overflow-hidden rounded mb-2"
-              >
-                <img
-                  class="img-fluid"
-                  src="img/office-3.jpg"
-                  alt=""
-                  style="width: 100%"
-                />
-                <a class="cat-overlay text-white text-decoration-none" href="">
-                  <h4 class="text-white font-weight-medium">
-                    Oficinas en Arriendo
-                  </h4>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- office End -->
+<script src="/js/script.js"></script>
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5">
-      <div class="row pt-5">
-        <div class="col-lg-12 col-md-12">
-          <div class="row">
-            <div class="col-md-12 mb-5 text-center">
-              <h5
-                class="text-primary text-uppercase mb-4"
-                style="letter-spacing: 5px"
-              >
-                Ponte en Contacto
-              </h5>
-              <p>
-                <i class="fa fa-map-marker-alt mr-2"></i>Cll 74 # 15 - 80,
-                Bogotá, Colombia <br />
-                Horario de Atención: <br />
-                <i class="fa fa-clock mr-2"></i>Lun ~ Vie - 8 am ~ 1 pm y 2 pm ~
-                5pm <br />
-                <i class="fa fa-clock mr-2"></i>Sab - 8 am ~ 11 am <br />
-              </p>
-              <p>
-                <span
-                  class="text-primary text-uppercase mb-4"
-                  style="letter-spacing: 5px"
-                >
-                  Administración PH
-                </span>
-                <br />
-                <i class="fa fa-phone-alt mr-2"></i>+57 601 321 6005 Opc. 1 ~
-                +57 318 218 5296 <br />
-                <i class="fa fa-envelope mr-2"></i
-                >edificioosakatradecenter@gmail.com
-              </p>
-              <p>
-                <span
-                  class="text-primary text-uppercase mb-4"
-                  style="letter-spacing: 5px"
-                >
-                  Contabilidad
-                </span>
-                <br />
-                <i class="fa fa-phone-alt mr-2"></i>+57 601 321 6005 Opc. 2 ~
-                +57 318 218 5298 <br />
-                <i class="fa fa-envelope mr-2"></i
-                >contabilidadedificioosaka12@gmail.com
-              </p>
-
-              <div>
-                <a class="btn btn-outline-light btn-square" href="#"
-                  ><i class="fab fa-whatsapp"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5"
-      style="border-color: rgba(256, 256, 256, 0.1) !important"
-    >
-      <div class="row">
-        <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-          <p class="m-0 text-white">
-            &copy; <a href="#">Osaka Trade Center</a>. All Rights Reserved.
-            Designed by <a href="#">SL Technology</a>
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- Footer End -->
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
-      ><i class="fa fa-angle-double-up"></i
-    ></a>
-
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-  </body>
+</body>
 </html>
