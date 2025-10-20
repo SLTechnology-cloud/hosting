@@ -1,1 +1,1 @@
-# osakatradecenter.github.io
+# magiccoin.github.io
