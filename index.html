@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Magic Coin</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Libro con Colores y StPageFlip</title>
   
-  <link href="css/style.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
   <!-- Librería StPageFlip -->
   <script src="https://cdn.jsdelivr.net/npm/page-flip/dist/js/page-flip.browser.min.js"></script>
 </head>
 <body>
 
 <div id="book">
-  <div class="page-cover-top" data-density="hard">
-    <img src="images/Logo Alcancia.png" style="margin-left: 12%; margin-top: 20%;" class="imagen-neon" width="350" />
+  <div class="page-cover-top" data-density="soft">
+    <img src="/images/Logo Alcancia.png" class="imagen-neon" />
   </div>
 
   <div class="page pagina1">
-    <img src="images/Slogan Alcancia.png" style="margin-left: 12%; margin-top: 10%;" width="350" />
+    <img src="/images/Slogan Alcancia.png" class="imagen-logo" />
     <h3 class="titulo titulo-azul">PONLE MAGIA A TUS AHORROS</h3>
   </div>
 
@@ -69,6 +70,20 @@
     </p>
   </div>
 
+  <div class="page pagina9">
+    <h1 class="titulo titulo-rojo">Flyer</h1>
+    <div style="text-align: center;">
+      <img src="/images/flyer.png" class="imagen-flyer" />
+    </div>    
+  </div>
+
+  <div class="page pagina10">
+    <h1 class="titulo titulo-verde titulo-verde-tarjeta">tarjeta</h1>
+    <div style="text-align: center;">
+      <img src="/images/tarjeta.jpeg" class="imagen-tarjeta" />
+    </div> 
+  </div>
+
   <div class="page-cover-bottom" data-density="hard">
     <h1 class="titulo titulo-verde">CAST</h1>
     <p class="texto">
@@ -78,20 +93,18 @@
       Ana Lucia Tapias<br />
       Martin Alejandro Vanegas
     </p>    
-    <img src="images/Nombre.png" width="250" style="margin-left: 21%;">
+    <img src="/images/Nombre.png" class="name">
   </div>
 </div>
 
 <!-- Botones para navegación -->
-<button onclick="pageFlip.flipPrev()" id="prevBtn" class="moneda" style="position: absolute; top: 10%; left: 10%;">⬅</button>
-<button onclick="pageFlip.flipNext()" id="nextBtn" class="moneda" style="position: absolute; top: 10%; right: 10%;">➡</button>
+<button id="prevBtn" class="moneda" style="position: absolute; top: 0%; left: 10%;">⬅</button>
+<button id="nextBtn" class="moneda" style="position: absolute; top: 0%; right: 10%;">➡</button>
 
 <!-- Audio -->
 <audio id="flipSound" src="page-flip.mp3" preload="auto"></audio>
 
-<script src="js/script.js"></script>
+<script src="/js/script.js"></script>
 
 </body>
 </html>
-
-
