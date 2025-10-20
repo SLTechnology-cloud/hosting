@@ -2,7 +2,7 @@
 body 
 {
   margin: 0;
-  background-image: url("/images/fondo.jpg");
+  background-image: url("images/fondo.jpg");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -307,6 +307,7 @@ body
   .name{
     margin-left: 23px;
   }
+
 
 
 }
