@@ -263,6 +263,12 @@ body
     margin-left: 23px;
   }
 
+  .imagen-tarjeta{
+    height: 200px;
+    width: 310px;
+    margin-top: 10%;  
+  }
+
   .video{
     width: 315px;
     height: 380px;
@@ -318,11 +324,18 @@ body
     margin-left: 23px;
   }
 
+  .imagen-tarjeta{
+    height: 210px;
+    width: 310px;
+    margin-top: 10%;
+  }
+
   .video{
     width: 300px;
     height: 350px;
   }
 }
+
 
 
 
