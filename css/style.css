@@ -197,6 +197,11 @@ body
 	top:1px;
 }
 
+.video{
+  width: 450px;
+  height: 380px;
+}
+
 @media (max-width:320px){
   .imagen-neon{
     margin-left: 1.5%; 
@@ -257,6 +262,11 @@ body
   .name{
     margin-left: 23px;
   }
+
+  .video{
+    width: 315px;
+    height: 380px;
+  }
 }
 
 @media (orientation: portrait) and (min-width:425px) {
@@ -308,8 +318,11 @@ body
     margin-left: 23px;
   }
 
-
-
+  .video{
+    width: 300px;
+    height: 350px;
+  }
 }
+
 
 
